@@ -20,7 +20,7 @@ h4 {
 
 .card {
 	color: #013243; /*SHERPA BLUE*/
-      background-image: url('https://github.com/Geessyca/quezia-convite/blob/main/docs/pagina-interior.png');
+      background-image: url('./pagina-interior.png');
       background-position: center;
     background-size: 105%;
 	position: absolute;
