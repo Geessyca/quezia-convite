@@ -4,27 +4,29 @@
     <title>Quézia 15 anos</title>
     <meta charset="utf-8">
 	<link href='./style.css' 	rel="stylesheet" type="text/css"/>
+	<meta name="viewport"
+		content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+
   </head>
   <body>
-    	<div class="card">
+    	<div class="card" id="card">
 		<div class="imgBox">
 			<div class="bark"></div>
-			<img src="https://image.ibb.co/fYzTrb/lastofus.jpg">
+			<img src="./pagina-exterior.gif">
 		</div>
 		<div class="details">
-			<h4 class="color1">You're not a Fossil! (YET)</h2>
-			<h4 class="color2 margin">(HAPPY BIRTHDAY)</h3>
-			<p>Dear Dad,</p>
-			<p>Let's see.. .</p>
-			<p>You’re never around, you</p>
-			<p>hate the music I’m into, you</p>
-			<p>practically despise the movies I</p>
-			<p>like, and yet somehow you still</p>
-			<p>manage to be the best dad every year.</p>
-			<p>How do you do that? :)</p>
-			<p class="text-right">Happy Birthday, papa!</p>
-			<p class="text-right">♥Sarah</p>
+			<a class="local" href="https://www.google.com/maps/dir//Ch%C3%A1cara+Para%C3%ADso+do+Sol+-+Estrada+Estela+da+Concei%C3%A7%C3%A3o+Cordeiro,+Ch%C3%A1cara+71+Chacreamento+do+Vieiro,+Congonhas+-+MG,+36417-070/@-20.4790722,-44.1170869,11z/data=!4m17!1m7!3m6!1s0xa159ec045ac2fd:0xa504eb46ff08a075!2sCh%C3%A1cara+Para%C3%ADso+do+Sol!8m2!3d-20.4790722!4d-43.853415!15sChlzaXRpbyAgYmFybmFiw6kgY29uZ29uaGFzWhoiGHNpdGlvIGJhcm5hYsOpIGNvbmdvbmhhc5IBDGJhbnF1ZXRfaGFsbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOUExYUkRWVmhSRUFF4AEA!4m8!1m0!1m5!1m1!1s0xa159ec045ac2fd:0xa504eb46ff08a075!2m2!1d-43.853415!2d-20.4790722!3e2" target="_blank"></a>
+			<a class="confirma" href="https://api.whatsapp.com/send?phone=5531971961557&text=Oi,%20passando%20aqui%20para%20confirmar%20minha%20presença%20no%20aniversário%20da%20Quézia!" target="_blank"></a>
 		</div>
 	</div>
   </body>
+  <script>
+	document.getElementById("card").addEventListener("click", function () {
+	document.getElementById("card").className = 'card open'
+ });
+	document.getElementById("card").addEventListener("mouseout", function () {
+		document.getElementById("card").className = 'card'
+	});
+ </script>
+
 </html>
